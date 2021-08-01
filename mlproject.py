@@ -17,7 +17,7 @@ n_samples, n_features = data.shape
 n_digits = len(np.unique(digits.target))
 labels = digits.target
 
-sample_size = 300
+sample_size = 3000
 
 print("n_digits: %d, \t n_samples %d, \t n_features %d"
       % (n_digits, n_samples, n_features))
