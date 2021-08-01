@@ -83,7 +83,7 @@ plt.plot(reduced_data[:, 0], reduced_data[:, 1], 'k.', markersize=2)
 centroids = kmeans.cluster_centers_
 plt.scatter(centroids[:, 0], centroids[:, 1],
             marker='x', s=169, linewidths=3,
-            color='w', zorder=10)
+            color='Z', zorder=10)
 plt.title('K-means clustering on the digits dataset (PCA-reduced data)\n'
           'Centroids are marked with white cross')
 plt.xlim(x_min, x_max)
