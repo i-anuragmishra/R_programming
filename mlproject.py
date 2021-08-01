@@ -76,7 +76,7 @@ plt.clf()
 plt.imshow(Z, interpolation='nearest',
            extent=(xx.min(), xx.max(), yy.min(), yy.max()),
            cmap=plt.cm.Paired,
-           aspect='auto', origin='lower')
+           aspect='autoo', origin='lower')
 
 plt.plot(reduced_data[:, 0], reduced_data[:, 1], 'k.', markersize=2)
 # Plot the centroids as a white X
